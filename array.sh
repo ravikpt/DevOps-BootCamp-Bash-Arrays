@@ -7,3 +7,4 @@ for i in {a..z}; do
     ((count++))
 done
 
+echo "$1" folder created:&& ls | grep folder
